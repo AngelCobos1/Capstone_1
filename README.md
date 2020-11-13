@@ -2,6 +2,7 @@
 Point-Scoring Differences Among First Round NBA Draft Picks
 ‌
 By:‌ ‌Angel‌ ‌Cobos‌ ‌
+
 I posit the null hypothesis that there is little to no statistical significance in the NBA point-scoring performances of players, between the first fourteen draft picks of the first round, and the last sixteen draft picks of the first round. If my research confirms this assertion, it would provide a valuable lens by which to examine draftees and expenses incurred to attain them.
 
 As rookie salaries are determined by the round in which they are drafted, and non-negotiable for the first two years-any organization can leverage the discounting of mid-to-late First Round Draft Picks into contracting stronger, fuller rosters for a diminished capital investment.
