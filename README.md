@@ -2,8 +2,22 @@
 Point-Scoring Differences Among First Round NBA Draft Picks
 ‌
 By:‌ ‌Angel‌ ‌Cobos‌ ‌
-I posit the null hypothesis that there is little to no statistical significance in the NBA point-scoring performances of players, between the first fourteen draft picks of the first round, and the last sixteen draft picks of the first round. If my research confirms this assertion, it would provide a valuable lens by which to examine draftees and expenses incurred to attain them.
-As rookie salaries are determined by the round in which they are drafted, and non-negotiable for the first two years-any organization can leverage the discounting of mid-to-late First Round Draft Picks into contracting stronger, fuller rosters for a diminished capital investment.
-In order to assess the validity of this hypothesis, I will be analyzing  the compiled data set provided by Justinas Cirtautas at, ‘https://www.kaggle.com/justinas/nba-players-data’. This particular data set consists of player data for each season going as far back as 1996. The presence of data concerning the draft year, seasonal performance statistics and season of play are of particular interest. However, not all the data is as useful to my analysis. I will specifically be examining the last ten years of NBA seasons, and the metric of average points per game. This should provide ample observations by which to draw conclusions without drawing from incomplete sampling of the current season. In order to assess each draft “pick” order against their average performance, I will also be isolating my sample groups to a player’s first three seasons of play. The assumption being, that by the end of the third year, we should see some normalization of their seasonal performance.
-The goal is to assess whether or not there are any point scoring differences between the first half of first-round draft picks and the last half of first-round draft picks. And if my hypothesis is not confirmed, the alternative hypothesis would read as such, there is a statistically significant difference in the NBA point scoring of players, between the first fourteen draft picks of the first round, and the last sixteen draft picks of the first. This conclusive statistical evidence would provide an opportunity for an organization to make better economic decisions regarding their draft pick strategies.
+***CAUTION: Repository is currently being restructured and reevaluated.***
+
+The original intention of this analysis and updates can be found below:
+
+Ho= There is no statistical difference in the NBA point-scoring performances of the first fourteen draft picks and the last sixteen draft picks of the first round.
+
+Ha = There is a statistical difference in the NBA point-scoring performances of the first fourteen draft picks and the last sixteen draft picks of the first round.
+
+If my analysis rejects the null hypothesis, the conclusions could provide a valuable lens to examine draftees and expenses incurred to attain them.
+Rookie salaries are determined by a draftees' draft order and are non-negotiable for the first two years. Any organization can leverage the discounting of mid-to-late First Round Draft Picks into contracting stronger, fuller rosters for reduced capital investment.
+
+Initially, I analyzed the compiled data set provided by Justinas Cirtautas at 'https://www.kaggle.com/justinas/nba-players-data.' This particular data set consisted of player data for each season going as far back as 1996. Data concerning the draft year, seasonal performance statistics, and season of play are of particular interest. However, not all the data is as useful to my analysis. I examined the last ten years of NBA seasons and the metric of average points per game. This subset provided comprehensive observations from which to analyze. I isolated sample groups to a player's first three seasons of play. The assumption being that by the end of the third year, we should have seen some normalization of their seasonal performance.
+
+The goal was to assess whether there are any point-scoring differences between the first half of the first-round draft picks and the last half of first-round draft picks.
+
+**UPDATE: 02/19/2021:
+
+Data Source-New data has been sourced directly from the nba.stats.com website. I uploaded the step-by-step walkthrough of the reproducible code for requesting the information under the NBA_Stats.ipynb and the NBA_SeasonStats.ipynb files. I still need to provide the virtual environment and provide .py files for the condensed code.
 ‌
