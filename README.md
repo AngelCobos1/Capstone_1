@@ -16,7 +16,7 @@ Rookie salaries are determined by a draftees' draft order and are non-negotiable
 
 Initially, I analyzed the compiled data set provided by Justinas Cirtautas at 'https://www.kaggle.com/justinas/nba-players-data.' This particular data set consisted of player data for each season going as far back as 1996. Data concerning the draft year, seasonal performance statistics, and season of play are of particular interest. However, not all the data is as useful to my analysis. I examined the last ten years of NBA seasons and the metric of average points per game. This subset provided comprehensive observations from which to analyze. I isolated sample groups to a player's first three seasons of play. The assumption being that by the end of the third year, we should have seen some normalization of their seasonal performance.
 
-The goal was to assess whether there are any point-scoring differences between the first half of the first-round draft picks and the last half of first-round draft picks.
+The prelimanary goal was to assess whether there are any point-scoring differences between the first half of the first-round draft picks and the last half of first-round draft picks.
 
 **UPDATE: 03/15/2021:
 
