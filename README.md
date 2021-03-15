@@ -20,7 +20,9 @@ The prelimanary goal was to assess whether there are any point-scoring differenc
 
 **UPDATE: 03/15/2021:
 
-RE: drafts_script, stats_script-A requirements.txt file has been added for convenviance of replicating the requests to be done from the nba.stats.com url.
+RE: drafts_script.py, stats_script.py-A requirements.txt file has been added for convenviance of replicating the requests from the nba.stats.com url.
+
+Learned how to push pandas dataframes to PostgreSQL database. Will be attempting to warehouse the data into AWS via Database Migration Service.
 
 Currently re-workging the A/B testing for a more ADVANCED analysis.
 
