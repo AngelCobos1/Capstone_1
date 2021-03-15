@@ -69,7 +69,10 @@ NBA_Drafts = make_df(years)
 
 NBA_Drafts.to_csv(r"C:\Users\ASUS\Thinkful_Projects\Capstone_1\NBA_Drafts.csv")
 
+# PostgreSQL needs the columns names lower-cased
 NBA_Drafts.columns = NBA_Drafts.columns.str.lower()
+
+# Create engine to SQL database
 engine = create_engine("postgresql://postgres:mybigdata@localhost:5433/nba")
 NBA_Drafts.to_sql("drafts", con=engine, if_exists="append", index=False)
 engine.dispose()

@@ -80,6 +80,16 @@ def request_seasons(seasons):
 
 
 seasons = [
+    "2000-01",
+    "2001-02",
+    "2002-03",
+    "2003-04",
+    "2004-05",
+    "2005-06",
+    "2006-07",
+    "2007-08",
+    "2008-09",
+    "2009-10",
     "2010-11",
     "2011-12",
     "2012-13",
@@ -125,7 +135,10 @@ NBA_Stats = make_df(data)
 
 NBA_Stats.to_csv(r"C:\Users\ASUS\Thinkful_Projects\Capstone_1\NBA_Drafts.csv")
 
+# PostgreSQL needs the columns names lower-cased
 NBA_Stats.columns = NBA_Stats.columns.str.lower()
+
+# Create engine to SQL database
 engine = create_engine("postgresql://postgres:mybigdata@localhost:5433/nba")
 NBA_Stats.to_sql("stats", con=engine, if_exists="append", index=False)
 engine.dispose()
